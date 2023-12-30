@@ -58,10 +58,11 @@ header {
 .logo {
     font-size: 1.2em;
     font-weight: 700;
+    color:#0000ff;
 }
 
 .logo span {
-    color: var(--text-color);
+    color: black;
 }
 .navbar {
     display: flex;
@@ -70,7 +71,7 @@ header {
 }
 .navbar a {
 --b: 0.1em;   /* the thickness of the line */
---c: #2f0aff; /* the color */
+--c: #0000ff; /* the color */
 color: hsla(240, 100%, 50%, 0.906);
 padding-block: var(--b);
 background: 
@@ -94,7 +95,7 @@ font-weight: 500;
 #search-icon {
 font-size: 24px;
 cursor: pointer;
-color:blue;
+color:#0000ff;
 }
 
 

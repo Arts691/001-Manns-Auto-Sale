@@ -58,11 +58,10 @@ header {
 .logo {
     font-size: 1.2em;
     font-weight: 700;
-    color: var(--text-color);
 }
 
 .logo span {
-    color: var(--main-color)
+    color:#020102
 }
 .navbar {
     display: flex;
@@ -72,8 +71,8 @@ header {
 
 .navbar a {
     --b: 0.1em;   /* the thickness of the line */
-    --c: #c11010; /* the color */
-    color: #ff0000e7;
+    --c: #2f0aff; /* the color */
+    color: hsla(240, 100%, 50%, 0.906);
     padding-block: var(--b);
     background: 
     linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,

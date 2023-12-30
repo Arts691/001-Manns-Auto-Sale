@@ -88,6 +88,13 @@ header {
 .navbar a:hover {
     --_p: 100%;
     --_s: .3s;  
-    
+}
 
+#search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.search-box {
+    position: absolute;
+    top: 110%;
 }

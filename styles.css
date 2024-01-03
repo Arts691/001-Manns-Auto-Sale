@@ -17,7 +17,9 @@
     --text-color:#020102 ;
     --big-color: #fff;
 }
-
+section {
+    padding: 4rem 0 2rem;
+}
 img {
     width: 100%;
 }
@@ -66,30 +68,28 @@ header {
 }
 .navbar {
     display: flex;
-    column-gap: 2rem;
+    column-gap: 2rem;  
 
 }
 .navbar a {
---b: 0.1em;   /* the thickness of the line */
---c: #0000ff; /* the color */
-color: hsla(240, 100%, 50%, 0.906);
-padding-block: var(--b);
-background: 
-linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
-linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
--webkit-background-clip: text,padding-box;
- background-clip: text,padding-box;
-transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
-color: var(--text-color);
-font-size: 1rem;
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #0000ff; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
 text-transform: uppercase;
 font-size: 1rem;
 font-weight: 500;
 }
 
 .navbar a:hover {
---_p: 100%;
---_s: .3s;  
+    --_p: 100%;
 }
 
 #search-icon {
@@ -121,5 +121,18 @@ border: none;
 outline:none;
 background: transparent;
 font-size:  1rem;
+}
+
+.home {
+    max-width: 1300px;
+    margin:auto;
+    width:100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
 }
   

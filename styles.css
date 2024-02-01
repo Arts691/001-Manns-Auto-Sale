@@ -665,9 +665,9 @@ margin-bottom: 15px;
 
 
 
-.blog .section-title { margin-bottom: 30px; }
+.carsale .section-title { margin-bottom: 30px; }
 
-.blog-card {
+.caresale-card {
   background: var(--alice-blue-2);
   border-radius: var(--radius-18);
   border: 1px solid var(--white);
@@ -997,7 +997,9 @@ margin-bottom: 15px;
 
 }
 
-
+.Phone1 {
+  text-align: center;
+}
 
 
 

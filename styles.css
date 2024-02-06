@@ -999,8 +999,45 @@ margin-bottom: 15px;
 
 .Phone1 {
   text-align: center;
+
 }
 
+
+h3 {
+  position:relative;
+  right: -2px;
+  line-height: 4em;
+  font-size: 18px;
+}
+
+.ol, li {
+  position:relative;
+  left: -1px;
+  top: -20px;
+}
+
+h4 {
+  text-align: center;
+  position:relative;
+  top:-1em;
+  right: -1px;
+  font-size: 18px;
+  margin-top:25px;
+}
+
+img {
+  width: 250px;
+}
+
+.img1 {
+  width: 250px;
+  position: relative;
+  left: -100px;
+}
+
+h1 {
+  font-size: 40px;
+}
 
 
 

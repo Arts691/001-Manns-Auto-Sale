@@ -1,8 +1,5 @@
 'use strict';
 
-/**
- * navbar toggle
- */
 
 const overlay = document.querySelector("[data-overlay]");
 const navbar = document.querySelector("[data-navbar]");

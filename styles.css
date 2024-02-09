@@ -284,8 +284,7 @@ button, a { transition: var(--transition); }
   visibility: hidden;
   transition: 0.25s cubic-bezier(0.51, 0.03, 0.64, 0.28);
 }
-.navbar {
-
+.navba{
 display: flex;
 column-gap: 2rem;  
 
@@ -1028,6 +1027,8 @@ h4 {
 img {
   width: 250px;
 }
+
+
 
 .img1 {
   width: 250px;

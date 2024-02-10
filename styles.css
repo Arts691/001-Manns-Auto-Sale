@@ -240,6 +240,7 @@ button, a { transition: var(--transition); }
   gap: 20px;
 }
 
+
 .header-actions .btn span { display: none; }
 
 .user-btn {
@@ -973,10 +974,13 @@ h1 {
     text-transform: uppercase;
   }
 
-
-
-
-
+.about1 {
+  text-align: center;
+}
+.about2 {
+  text-align: center;
+  color: blue;
+}
 
 
 

@@ -158,12 +158,14 @@ span {
 }
 
 
-.about1 {
-  text-align: center;
+.about1, hr{
+  position: relative;
+  right: -20%;
 }
 .about2 {
-  text-align: center;
-  color: blue;
+  position: relative;
+  right: -20%;
+  color: #0000ff;
 }
 
 
@@ -783,21 +785,9 @@ i {
 
 
 
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
-
-/**
- * responsive for large than 350px screen
- */
+/* arts ipad */
 
 @media (min-width: 350px) {
-
-  /**
-   * FEATURED CAR
-   */
 
   .featured-car-card .card-list { grid-template-columns: 1fr 1fr; }
 
@@ -807,6 +797,22 @@ i {
     min-width: max-content;
     padding-inline: 15px;
   }
+  
+  body{
+    width: 100%;
+   }
+ 
+  
+.about1, hr{
+  position: relative;
+  right: -2%;
+}
+.about2 {
+  position: relative;
+  right: -2%;
+  color: #0000ff;
+}
+
 
 }
 
@@ -818,10 +824,6 @@ i {
 
 @media (min-width: 580px) {
 
-  /**
-   * REUSED STYLE
-   */
-
   .container {
     max-width: 540px;
     margin-inline: auto;
@@ -830,9 +832,7 @@ i {
 
 
 
-  /**
-   * HEADER
-   */
+  
 
   .header-actions .btn span {
     display: block;
@@ -1151,19 +1151,28 @@ i {
 
 
 @media only screen and (max-width:600px) {
-  /* For mobile phones: */
+  /* arts phone */
  body{
    width: 70%;
   }
 
-  
+  .featured-car {
+  position: relative;
+  left: 20%;
+
+}
+
+.title-wrapper{
+  position: relative;
+  left: 20%;
+}
 .image4 {
   width: 120px;
 }
 
 .Phone1, hr {
   position: relative;
-  right:-89px;
+  right:-55px;
 
 }
 
@@ -1203,12 +1212,12 @@ iframe{
   border:none;
   width:90%;
   position: relative;
-  left: 70px;
+  left: 190px;
 }
 
 .location1 {
   position: relative;
-  left: 100px;
+  left: 190px;
 }
 .map1 {
   position: relative;
@@ -1234,11 +1243,11 @@ i {
 
 .about1 {
   position: relative;
-  right:-89px;
+  right:-60px;
 }
 .about2 {
   position: relative;
-  right:-89px;
+  right:-60px;
   color: #0000ff;
 }
 

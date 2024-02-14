@@ -1147,3 +1147,110 @@ i {
   .footer-list:last-of-type { width: 33.33%; }
 
 }
+
+
+
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+ body{
+   width: 70%;
+  }
+
+  
+.image4 {
+  width: 120px;
+}
+
+.Phone1, hr {
+  position: relative;
+  right:-89px;
+
+}
+
+.hr1 {
+  position: relative;
+  right: 4px;
+}
+
+h3 {
+  position:relative;
+  right: -2px;
+  line-height: 4em;
+  font-size: 18px;
+}
+
+.ol, li {
+  position:relative;
+  left: -1px;
+  top: -20px;
+}
+
+h4 {
+  text-align: center;
+  position:relative;
+  top:-1em;
+  right: -1px;
+  font-size: 18px;
+  margin-top:25px;
+}
+
+img {
+  width: 250px;
+}
+
+iframe{
+  height:200px;
+  border:none;
+  width:90%;
+  position: relative;
+  left: 70px;
+}
+
+.location1 {
+  position: relative;
+  left: 100px;
+}
+.map1 {
+  position: relative;
+  left: 100px;
+}
+
+
+.img1 {
+  height:200px;
+  border:none;
+  width:90%;
+  position: relative;
+  left: 70px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+i {
+  color:rgb(0, 21, 255);
+}
+
+.about1 {
+  position: relative;
+  right:-89px;
+}
+.about2 {
+  position: relative;
+  right:-89px;
+  color: #0000ff;
+}
+
+.footer-bottom{
+  width: 140%;
+}
+
+.social-lis {
+  width:2px;
+}
+}
+
+
+
+

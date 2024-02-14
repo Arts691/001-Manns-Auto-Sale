@@ -1,24 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-  /**
-   * colors
-   */
+  
 
   --pale-purple-pantone: hsl(262, 63%, 92%);
   --medium-sea-green: hsl(152, 63%, 43%);
@@ -45,10 +27,6 @@
 
   --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
 
-  /**
-   * typography
-   */
-
   --ff-nunito: 'Nunito', sans-serif;
   --ff-open-sans: 'Open Sans', sans-serif;
 
@@ -67,15 +45,10 @@
 
   --transition: 0.5s ease;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 50px;
 
-  /**
-   * radius
-   */
+
 
   --radius-10: 10px;
   --radius-14: 14px;
@@ -188,10 +161,6 @@ span {
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
-
 .container { padding-inline: 15px; }
 
 button, a { transition: var(--transition); }
@@ -259,9 +228,6 @@ button, a { transition: var(--transition); }
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 .header-contact { display: none; }
 
@@ -705,10 +671,6 @@ i {
 
 
 
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
 .footer {
   background: var(--alice-blue-4);
   color: var(--independence);
@@ -852,15 +814,10 @@ i {
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
-
+ 
   :root {
 
-    /**
-     * typography
-     */
+  
 
     --fs-1: 2.625rem;
 
@@ -898,9 +855,7 @@ i {
 
 
 
-  /**
-   * HERO
-   */
+
 
   .hero {
     position: relative;
@@ -943,25 +898,17 @@ i {
 
 
 
-  /**
-   * FEATURED CAR
-   */
+ 
 
   .featured-car-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 
 
-  /**
-   * GET START
-   */
-
+  
   .get-start-list { grid-template-columns: 1fr 1fr; }
 
 
 
-  /**
-   * FOOTER
-   */
 
   .footer-brand { width: 100%; }
 
@@ -984,31 +931,22 @@ i {
 
 
 
-/**
- * responsive for large than 992px screen
- */
 
 @media (min-width: 992px) {
 
-  /**
-   * REUSED STYLE
-   */
+
 
   .container { max-width: 960px; }
 
 
 
-  /**
-   * HERO
-   */
+
 
   .hero .container { width: 100%; }
 
 
 
-  /**
-   * BLOG
-   */
+
 
   .blog .has-scrollbar { padding-bottom: 50px; }
 
@@ -1016,9 +954,7 @@ i {
 
 
 
-  /**
-   * FOOTER
-   */
+
 
   .footer-list:not(:last-of-type) { width: 25%; }
 
@@ -1030,21 +966,13 @@ i {
 
 
 
-/**
- * responsive for large than 1200px screen
- */
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
-
+  
   :root {
 
-    /**
-     * typography
-     */
+  
 
     --fs-1: 2.875rem;
     --fs-2: 2rem;
@@ -1053,18 +981,13 @@ i {
 
 
 
-  /**
-   * REUSED STYLE
-   */
-
+ 
   .container { max-width: 1170px; }
 
 
 
 
-  /**
-   * HEADER
-   */
+
 
   .overlay,
   .nav-toggle-btn { display: none; }
@@ -1107,25 +1030,19 @@ i {
 
 
 
-  /**
-   * FEATURED CAR 
-   */
+
 
   .featured-car-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 
 
-  /**
-   * GET START
-   */
+  
 
   .get-start-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
-  /**
-   * BLOG
-   */
+
 
   .blog .has-scrollbar > li {
     max-width: 340px;
@@ -1134,9 +1051,7 @@ i {
 
 
 
-  /**
-   * FOOTER
-   */
+ 
 
   .footer-brand { width: 33.33%; }
 

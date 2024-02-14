@@ -1,4 +1,25 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
 :root {
+
+  /**
+   * colors
+   */
+
   --pale-purple-pantone: hsl(262, 63%, 92%);
   --medium-sea-green: hsl(152, 63%, 43%);
   --lavender-blush: hsl(336, 35%, 92%);
@@ -24,6 +45,9 @@
 
   --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
 
+  /**
+   * typography
+   */
 
   --ff-nunito: 'Nunito', sans-serif;
   --ff-open-sans: 'Open Sans', sans-serif;
@@ -43,8 +67,15 @@
 
   --transition: 0.5s ease;
 
+  /**
+   * spacing
+   */
+
   --section-padding: 50px;
 
+  /**
+   * radius
+   */
 
   --radius-10: 10px;
   --radius-14: 14px;
@@ -155,6 +186,10 @@ span {
 
 
 
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
 .container { padding-inline: 15px; }
 
 button, a { transition: var(--transition); }
@@ -222,6 +257,9 @@ button, a { transition: var(--transition); }
 
 
 
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
 
 .header-contact { display: none; }
 
@@ -420,6 +458,7 @@ margin-bottom: 15px;
   margin: 20px;
   text-transform: uppercase;
 }
+
 
 
 
@@ -658,9 +697,15 @@ i {
   color: blue;
 }
 
+.has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
 
 
 
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
 
 .footer {
   background: var(--alice-blue-4);
@@ -739,9 +784,20 @@ i {
 
 
 
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 350px screen
+ */
+
 @media (min-width: 350px) {
 
- 
+  /**
+   * FEATURED CAR
+   */
 
   .featured-car-card .card-list { grid-template-columns: 1fr 1fr; }
 
@@ -762,6 +818,9 @@ i {
 
 @media (min-width: 580px) {
 
+  /**
+   * REUSED STYLE
+   */
 
   .container {
     max-width: 540px;
@@ -770,6 +829,10 @@ i {
   }
 
 
+
+  /**
+   * HEADER
+   */
 
   .header-actions .btn span {
     display: block;
@@ -789,10 +852,16 @@ i {
 
 @media (min-width: 768px) {
 
-  
+  /**
+   * CUSTOM PROPERTY
+   */
+
   :root {
 
-   
+    /**
+     * typography
+     */
+
     --fs-1: 2.625rem;
 
   }
@@ -829,7 +898,10 @@ i {
 
 
 
- 
+  /**
+   * HERO
+   */
+
   .hero {
     position: relative;
     min-height: 85vh;
@@ -871,19 +943,26 @@ i {
 
 
 
-  
+  /**
+   * FEATURED CAR
+   */
 
   .featured-car-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 
 
-  
+  /**
+   * GET START
+   */
 
   .get-start-list { grid-template-columns: 1fr 1fr; }
 
 
 
-  
+  /**
+   * FOOTER
+   */
+
   .footer-brand { width: 100%; }
 
   .footer-text { max-width: 400px; }
@@ -904,18 +983,32 @@ i {
 
 
 
+
+/**
+ * responsive for large than 992px screen
+ */
+
 @media (min-width: 992px) {
 
-  
+  /**
+   * REUSED STYLE
+   */
+
   .container { max-width: 960px; }
 
 
 
-  
+  /**
+   * HERO
+   */
 
   .hero .container { width: 100%; }
 
 
+
+  /**
+   * BLOG
+   */
 
   .blog .has-scrollbar { padding-bottom: 50px; }
 
@@ -923,6 +1016,9 @@ i {
 
 
 
+  /**
+   * FOOTER
+   */
 
   .footer-list:not(:last-of-type) { width: 25%; }
 
@@ -934,13 +1030,22 @@ i {
 
 
 
+/**
+ * responsive for large than 1200px screen
+ */
+
 @media (min-width: 1200px) {
 
-  
+  /**
+   * CUSTOM PROPERTY
+   */
 
   :root {
 
-    
+    /**
+     * typography
+     */
+
     --fs-1: 2.875rem;
     --fs-2: 2rem;
 
@@ -948,11 +1053,18 @@ i {
 
 
 
+  /**
+   * REUSED STYLE
+   */
 
   .container { max-width: 1170px; }
 
 
 
+
+  /**
+   * HEADER
+   */
 
   .overlay,
   .nav-toggle-btn { display: none; }
@@ -994,6 +1106,37 @@ i {
   }
 
 
+
+  /**
+   * FEATURED CAR 
+   */
+
+  .featured-car-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+
+
+  /**
+   * GET START
+   */
+
+  .get-start-list { grid-template-columns: repeat(4, 1fr); }
+
+
+
+  /**
+   * BLOG
+   */
+
+  .blog .has-scrollbar > li {
+    max-width: 340px;
+    scroll-snap-align: center;
+  }
+
+
+
+  /**
+   * FOOTER
+   */
 
   .footer-brand { width: 33.33%; }
 

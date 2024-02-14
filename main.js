@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * navbar toggle
+ */
 
 const overlay = document.querySelector("[data-overlay]");
 const navbar = document.querySelector("[data-navbar]");
@@ -21,7 +24,9 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 
-
+/**
+ * header active on scroll
+ */
 
 const header = document.querySelector("[data-header]");
 
@@ -29,5 +34,3 @@ window.addEventListener("scroll", function () {
   window.scrollY >= 10 ? header.classList.add("active")
     : header.classList.remove("active");
 });
-
-

@@ -513,7 +513,7 @@ margin-bottom: 15px;
   font-weight: var(--fw-600);
   padding: 3px 12px;
   color:black;
-  border: 2px outset red;
+  border: 2px outset black;
   border-radius: var(--radius-14);
   
 }
